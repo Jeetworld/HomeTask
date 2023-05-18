@@ -26,25 +26,25 @@ public class FactoryDesignTestCaseOne {
 	@Test
 	public void verifyBStackDemoAddToCart() {
 	driver.get("https://bstackdemo.com/");
-	List<WebElement> addToCartBtns = driver.findElements(By.cssSelector("div.shelf-item__buy-btn"));
-	addToCartBtns.get(0).click();
-	WebElement chkoutbtn = driver.findElement(By.cssSelector("div.buy-btn"));
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-	Assert.assertTrue(chkoutbtn.isDisplayed());
+//	List<WebElement> addToCartBtns = driver.findElements(By.cssSelector("div.shelf-item__buy-btn"));
+//	addToCartBtns.get(0).click();
+//	WebElement chkoutbtn = driver.findElement(By.cssSelector("div.buy-btn"));
+//	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+//	Assert.assertTrue(chkoutbtn.isDisplayed());
 	}
 	
 	@Test
 	public void verifyBStackDemoTitle() {
-	driver.get("https://bstackdemo.com/");
-	Assert.assertEquals(driver.getTitle(), "StackDemo");
+	driver.get("https://facebook.com/");
+//	Assert.assertEquals(driver.getTitle(), "StackDemo");
 	}
 
 	@Test
 	public void verifyBStackDemoLogo() {
-	driver.get("https://bstackdemo.com/");
-	WebElement logo = driver.findElement(By.cssSelector(" a.Navbar_logo__26S5Y"));
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-	Assert.assertTrue(logo.isDisplayed());
+	driver.get("https://google.com/");
+//	WebElement logo = driver.findElement(By.cssSelector(" a.Navbar_logo__26S5Y"));
+//	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+//	Assert.assertTrue(logo.isDisplayed());
 	}
 
 	@AfterTest

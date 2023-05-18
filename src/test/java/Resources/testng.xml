@@ -4,8 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
 <!--      <class name="Task.Task.AppTest"/>-->
-      <class name="DesignPatterns.ParallelTesting"/>
-      <class name="DesignPatterns.Driver"/>
+     <class name="DesignPatterns.FactoryPattern.FactoryDesignTestCaseOne"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
